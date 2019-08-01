@@ -1,0 +1,861 @@
+@media all and (max-width:768px) {
+    .desctop {
+        display: none;
+    }
+
+    .mobile_b {
+        display: block;
+    }
+
+    .sec1 {
+
+        flex-direction: column;
+        padding: 20vw 11vw 9vw;
+    }
+
+    .sec1Info {
+
+        align-items: center;
+    }
+
+    .sec1 .infoText p {
+
+        font-size: 5vw;
+        text-align: left;
+        margin: 7vw 0 4vw;
+    }
+
+    .sec1 .infoLogo {
+
+        width: 70vw;
+        height: 33vw;
+        background-image: url(../BImg/sec1LogoMob.png);
+    }
+
+    .sec1 .infoLogo p:first-of-type {
+        font-size: 5vw;
+        padding: 2vw 0 0 8.5vw;
+    }
+
+    .sec1 .infoLogo p {
+        font-size: 8.17vw;
+        padding: 2vw 2.8vw 0 0;
+    }
+
+    .sec1 .infoLogo p:last-of-type {
+        font-size: 2.9vw;
+        padding: 1.7vw 3.7vw 0 0;
+    }
+
+    .sec1Img {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        padding-left: 5vw;
+        box-sizing: border-box;
+    }
+
+    .sec1 .infoIcon {
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url(../BImg/greenbackground.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 6vw 1.8vw;
+        box-sizing: border-box;
+        width: 23vw;
+        position: absolute;
+        right: 7vw;
+    }
+
+    .sec1Animate {
+
+        background-size: cover;
+        width: 78vw;
+        height: 87vw;
+    }
+
+    .sec1 .infoIcon .icon img {
+        width: 13.5vw;
+        height: 13.5vw;
+    }
+
+    .sec1 .infoIcon .icon p {
+        font-size: 2.5vw;
+        margin: 0.5vw 0;
+    }
+
+    .sec2 {
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        padding: 10vw 9vw 17vw;
+    }
+
+    .sec2 .sec2Info h1 {
+        font-size: 6vw;
+        letter-spacing: -0.2vw;
+        text-align: center;
+        width: 100%;
+        margin: 0.83em 0;
+    }
+
+    .sec2 .sec2Info {
+
+        width: 100%;
+        margin-top: 1vw;
+    }
+
+    .textInfo_p {
+        font-size: 4vw;
+        line-height: 1.5;
+        margin: 1em 0;
+    }
+
+    .sec2Img {
+
+        width: 109%;
+        height: 88vw;
+
+        padding-top: 1vw;
+        margin-left: -4vw;
+    }
+
+    .sec2ImgInfo h4 {
+        font-size: 2.5vw;
+    }
+
+    .sec2ImgInfo p {
+        font-size: 2.5vw;
+    }
+
+    .sec2ImgInfo {
+        display: flex;
+        flex-direction: column;
+        width: 35vw;
+        box-sizing: border-box;
+        margin: 8vw 0 4vw 40vw;
+    }
+
+    .sec2ImgInfo:first-of-type {
+        margin: 0vw 0 1vw 40vw;
+    }
+
+    .sec2ImgInfo:last-of-type {
+        margin: 4vw 0 0vw 40vw;
+    }
+
+    .sec2ImgInfo .imgInfo_hr {
+        width: 8.8vw;
+        height: 0.5vw;
+    }
+
+
+    .sec2 .spoiler-header {
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid black;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding-left: 10vw;
+
+
+        box-sizing: border-box;
+    }
+
+    .sec2 .spoiler {
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .sec2 .original_spoiler {
+        font-size: 4vw;
+        font-weight: 600;
+    }
+
+    .sec2 .spoiler_body_paragraph {
+
+        margin-left: 9vw;
+        margin-top: 5vw;
+        font-size: 4vw;
+    }
+
+    .sec2 .spoiler-expand-btn {
+        font-weight: normal;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 6vw;
+        border-radius: 50%;
+        width: 7vw;
+        height: 7vw;
+        color: black;
+    }
+
+    .sec2 .sec2 .openBox p {
+        font-size: 4vw;
+        margin-top: 7vw;
+    }
+
+    .sec2 .spoiler-body {
+        background-color: transparent;
+        padding: 0;
+    }
+
+    .sec2 .spoiler-header-left-part {
+        display: flex;
+        height: auto;
+        padding-left: 9vw;
+    }
+
+
+    .sec3 {
+
+        background-color: #feebed;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 12vw 7vw 12vw 4vw;
+    }
+
+    .sec3Box h4 {
+        font-size: 4vw;
+        line-height: 1.5;
+        margin: 3vw 0;
+        padding-left: 5vw;
+    }
+
+    .sec3Box h2 {
+        font-size: 5vw;
+        margin: 0;
+        padding-left: 5vw;
+    }
+
+    .sec3Top {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 10vw;
+    }
+
+    .sec3Info {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 0 0 4vw;
+    }
+
+    .sec3Box .bubbleInLine {
+        width: 42vw;
+    }
+
+    .sec3Text p {
+        font-size: 3vw;
+    }
+
+    .sec3Text h3 {
+        font-size: 3.5vw;
+        font-family: "Open Sans bold";
+    }
+
+    .sec3Text:first-of-type {
+        margin: -3vw 0 2vw;
+        width: 40vw;
+    }
+
+    .sec3Text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 10vw 0 0;
+        width: 40vw;
+    }
+
+    .sec3Text:last-of-type {
+        width: 43vw;
+        margin: 9vw 0 3vw;
+    }
+
+    .sec3Bubble {
+
+        flex-direction: row;
+    }
+
+    .sec3Bubble p {
+        font-size: 3vw;
+        margin: 0 0 2vw;
+    }
+
+    .sec3Label p {
+        font-family: "Open Sans semi-bold"
+    }
+
+    .sec3BubbleText {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .sec3Bubble .mainBubble {
+        width: 39.5vw;
+        box-sizing: border-box;
+        margin: 4vw 4vw 0 0;
+    }
+
+    .sec3Bubble .sec3Label img {
+        width: 6vw;
+    }
+
+    .sec32 {
+        background-color: #ffdee1;
+    }
+
+    .sec32 h2 span {
+        box-sizing: border-box;
+        padding-left: 5.3vw;
+    }
+
+    .sec32 .sec3Info {
+        padding: 0 0 0 4vw;
+    }
+
+    .sec32 .sec3Text {
+
+        width: 40vw;
+    }
+
+    .sec32 .sec3Text:first-of-type {
+        margin: -7vw 0 -2vw;
+    }
+
+    .sec32 .sec3Bubble .sec3Label .labelImg img:last-of-type {
+        width: 5.8vw;
+    }
+
+    .sec32 .sec3Bubble .sec3Label {
+
+        align-items: flex-start;
+    }
+
+    .sec32 .sec3Bubble .sec3Label p:last-of-type {
+        margin: 2vw 0 0;
+    }
+
+    .sec33 {
+        background-color: rgb(254, 235, 237)
+    }
+
+    .sec33 .sec3Text:last-of-type {
+        margin: 15vw 0 0;
+        width: 41vw;
+    }
+
+    .sec33 .sec3Text:first-of-type {
+        margin: -7vw 0 0vw;
+    }
+
+    .sec4Img .arrow {
+        width: 86vw;
+    }
+
+    .sec4Img {
+        margin-top: 5vw;
+        height: 81vw;
+        justify-content: flex-start;
+    }
+
+    .sec4Img .imgBottom_box img {
+
+        width: 9.6vw;
+    }
+
+    .circle-1 {
+        width: 9.6vw;
+        height: 9.6vw;
+    }
+
+    .circle-2 {
+        width: 9.6vw;
+        height: 9.6vw;
+    }
+
+    .sec4Img .imgBottom p {
+        font-size: 2.5vw;
+        width: 19vw;
+    }
+
+    .sec4Img .imgBottom {
+
+        width: 100%;
+    }
+
+    .sec4Img .imgTop p {
+
+        font-size: 3vw;
+    }
+
+    .sec4Img .imgTop {
+
+        width: 39vw;
+        height: 39vw;
+        left: 18vw;
+    }
+
+    .sec4Img .box1 {
+        top: -13.7vw;
+        left: -4.1vw;
+    }
+
+    .sec4Img .imgBottom .box2 p {
+        width: 21vw;
+    }
+
+    #pulse-bl-5,
+    #pulse-5 {
+
+        top: 8.1vw;
+        left: 4.5vw;
+    }
+
+
+    .sec4Img .box2 {
+        top: 5.34vw;
+        left: 3.97vw;
+    }
+
+    #pulse-bl-4,
+    #pulse-4 {
+        left: 5.5vw;
+        top: -0.2vw;
+    }
+
+    .sec4Img .box3 {
+        top: 7.8vw;
+        left: 9.1vw;
+    }
+
+    #pulse-bl-3,
+    #pulse-3 {
+        top: 5.5vw;
+        left: 4.5vw;
+    }
+
+    .sec4Img .box4 {
+        top: 17.4vw;
+        left: 11.1vw;
+    }
+
+    #pulse-bl-2,
+    #pulse-2 {
+        left: 4.6vw;
+        top: -0.1vw;
+    }
+
+    .sec4Img .box5 {
+        top: 14.94vw;
+        left: 12.6vw;
+    }
+
+    #pulse-bl-1,
+    #pulse-1 {
+
+        left: 4.5vw;
+        top: 2.6vw;
+    }
+
+    .sec5Info {
+        justify-content: center;
+        padding-top: 2vw;
+    }
+
+    .sec5Box h3 {
+        font-size: 3vw;
+        line-height: 1.7;
+    }
+
+    .sec5Box h2 {
+        font-size: 4vw;
+    }
+
+    .sec5Box p {
+        font-size: 3vw;
+        line-height: 1.7;
+    }
+
+    .sec5Info #img1 {
+        width: 45vw;
+    }
+
+    .sec5Box .sec5Info {
+
+        width: 100%;
+        height: 76vw;
+        justify-content: flex-start;
+    }
+
+    .sec5Info #img2 {
+        width: 33vw;
+    }
+
+    .sec5Box hr {
+        height: 5px;
+        width: 63px;
+    }
+
+    .sec5 {
+
+        padding: 0;
+    }
+
+    .mobRadial {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        width: 100vw;
+        padding: 4vw 10vw;
+        background-color: #cefdee;
+        box-sizing: border-box;
+    }
+
+    .mobRadial div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    .radial-progress {
+        flex-direction: column;
+        width: 40%;
+        background-color: #cefdee;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    svg.radial-progress {
+        max-width: 32.38vw;
+        padding: 0;
+        transform: rotate(-90deg);
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    svg.radial-progress text {
+        transform: matrix(0, 1, -1, 0, 77, 0);
+        font-size: 2.8vw;
+        box-sizing: border-box;
+    }
+
+    .radial-progress p {
+        width: 46.13vw;
+        color: #000;
+        font-size: 4vw;
+        text-align: center;
+        padding: 2.8vw 0 0 3vw;
+        box-sizing: border-box;
+    }
+
+    .first-radial {
+        height: 58vw;
+        box-sizing: border-box;
+    }
+
+    .sec7Info h1 {
+        font-size: 5vw;
+        font-family: "Open Sans semi-bold";
+        margin: 0 0 5.5vw;
+    }
+
+    .know_more_btn {
+        text-transform: uppercase;
+        font-size: 2.7vw;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        width: 27vw;
+        background-color: white;
+        border: none;
+        outline: none;
+        border-radius: 5vw;
+        box-shadow: 0px 7px 13px grey;
+    }
+
+    .sec7Box {
+        height: 50vw;
+        padding: 0 8vw 0 42vw;
+    }
+
+    .sec7Img {
+        width: 72vw;
+        height: 68vw;
+        margin-top: 3vw;
+        position: absolute;
+        left: -35vw;
+        margin-top: -1vw;
+    }
+
+    .sec7 {
+
+        padding: 10vw 0 21vw;
+    }
+    
+    .ing1 {
+    top: 18vw;
+    width: 4.3vw;
+    left: 2vw;
+}
+    .ing2 {
+    top: 22vw;
+    left: 3.5vw;
+    width: 22.5vw;
+}
+    .ing3 {
+    top: 21.6vw;
+    left: 6vw;
+    width: 4.3vw;
+}
+    .ing4 {
+    top: 20.7vw;
+    left: -7.6vw;
+    width: 8.9vw;
+}
+.ing5 {
+    top: 17.5vw;
+    left: 13vw;
+    width: 7vw;
+}
+    .ing6 {
+    top: 15vw;
+    left: 6vw;
+    width: 7.9vw;
+}
+    .ing7 {
+        top: 12.5vw;
+    left: -14vw;
+    width: 6vw;
+}
+    .ing8 {
+    top: 7vw;
+    left: 15vw;
+    width: 4.5vw;
+}
+    .ing9 {
+   width: 19.4vw;
+    left: -7vw;
+    top: 4vw;
+}
+    .ing10 {
+   top: -2vw;
+    left: -2vw;
+    width: 9vw;
+}
+    .ing11 {
+       top: -9vw;
+    left: 15.5vw;
+    width: 22.5vw;
+}
+    .ing12 {
+    top: -12vw;
+    left: -13.3vw;
+    width: 11.4vw;
+}
+}
+
+
+@media all and (max-width:425px) {
+
+    .sec1 {
+
+        flex-direction: column;
+        padding: 25vw 12vw 9vw;
+    }
+
+    .sec4Img .box5 {
+        top: 15.05vw;
+    }
+
+    #pulse-bl-1,
+    #pulse-1 {
+
+        top: 2.4vw;
+    }
+
+    .sec4Img .box4 {
+
+        left: 11.2vw;
+    }
+
+    #pulse-bl-2,
+    #pulse-2 {
+        left: 4.45vw;
+        top: -0.3vw;
+    }
+
+    .sec4Img .box3 {
+        top: 7.9vw;
+    }
+
+    #pulse-bl-3,
+    #pulse-3 {
+        top: 5.1vw;
+        left: 4.45vw;
+    }
+
+    .sec4Img .box2 {
+
+        left: 3.9vw;
+    }
+
+    .sec4Img .box1 {
+        top: -13.5vw;
+    }
+
+    #pulse-bl-5,
+    #pulse-5 {
+        top: 7.6vw;
+        left: 4.3vw;
+    }
+
+    .sec5Box .sec5Info {
+        height: 92vw !important;
+    }
+
+    .sec5Box hr {
+        height: 3px !important;
+    }
+
+    .slick-dots {
+        bottom: -2vw !important;
+    }
+
+    .mobRadial {
+        padding: 10vw 10vw;
+    }
+
+    svg.radial-progress text {
+        transform: matrix(0, 1, -1, 0, 79, 0) !important;
+        font-size: 3.8vw !important;
+    }
+}
+
+@media all and (max-width:375px) {
+    .sec4Img .box5 {
+        top: 14.94vw;
+        left: 12.5vw;
+    }
+
+    .sec4Img .box4 {
+        top: 17.4vw;
+        left: 11.1vw;
+    }
+
+    .sec4Img .box3 {
+        top: 7.8vw;
+        left: 9.1vw;
+    }
+
+    #pulse-bl-3,
+    #pulse-3 {
+        top: 5.3vw;
+    }
+
+    #pulse-bl-4,
+    #pulse-4 {
+        left: 5.5vw;
+        top: -0.4vw;
+    }
+
+    .sec4Img .box2 {
+        top: 5.34vw;
+    }
+
+    #pulse-bl-5,
+    #pulse-5 {
+        top: 7.8vw;
+        left: 4.5vw;
+    }
+
+    svg.radial-progress text {
+        font-size: 4.8vw !important;
+    }
+
+    .modalWindMob {
+        padding: 11vw 0 6vw;
+    }
+
+    .sec4Img .box1 {
+        top: -13.7vw;
+        left: -4.05vw;
+    }
+}
+
+@media all and (max-width:320px) {
+    .sec5Box {
+        padding: 30px 50px 39px;
+    }
+
+    .slick-dots {
+        bottom: -7vw !important;
+    }
+
+    svg.radial-progress text {
+        transform: matrix(0, 1, -1, 0, 79, 1) !important;
+        font-size: 4.8vw !important;
+    }
+
+    .mobRadial {
+        padding: 17vw 10vw;
+    }
+
+    .modalWindMob {
+        padding: 13vw 0 6vw;
+    }
+
+    .sec4Img .box5 {
+        top: 15vw;
+        left: 12.45vw;
+    }
+
+    #pulse-bl-1,
+    #pulse-1 {
+        left: 4.3vw;
+    }
+
+    .sec4Img .box4 {
+        top: 17.2vw;
+        left: 11.1vw;
+    }
+    .sec4Img .box3 {
+    top: 8vw;
+}
+    #pulse-bl-3, #pulse-3 {
+    top: 4.8vw;
+    left: 4.35vw;
+}
+    .sec4Img .box2 {
+    top: 5vw;
+}
+    #pulse-bl-4, #pulse-4 {
+    left: 5.5vw;
+     top: -0.2vw; 
+}
+    .sec4Img .box1 {
+    top: -13.3vw;
+    left: -4vw;
+}
+    #pulse-bl-5, #pulse-5 {
+    top: 7.2vw;
+    left: 4.35vw;
+}
+
+
+}

@@ -42,6 +42,13 @@ $('#openModal').click(function () {
 
         top: '0%'
     }, 10);
+    $('.close').animate({
+
+        top: '95%'
+    }, 200);
+
+    $('.modalWind').scrollTop(0);
+
 
 });
 //         закрити модальне вікно для desctop
@@ -51,6 +58,10 @@ $('.close').click(function () {
 
         top: '100%'
     }, 10);
+    $('.close').animate({
+
+        top: '155%'
+    }, 60);
 
 });
 //         відкрити модальне вікно для mobile
@@ -60,19 +71,44 @@ $('#openModalMob').click(function () {
     });
     $('.modalWindMob').animate({
 
-        top: '3%'
+        top: '60px'
     }, 10);
+    $('.closeMob').animate({
+
+        top: '90%'
+    }, 150);
+
+
+    $('.modalWindMob').scrollTop(0);
+
 
 });
 //         закрити модальне вікно для mobile
 $('.closeMob').click(function () {
-    $('.modalWindMob').css({
-        display: 'none'
-    });
+    $('.closeMob').animate({
+
+        top: '155%'
+    }, 10);
     $('.modalWindMob').animate({
 
         top: '100%'
     }, 10);
+   
+
+    var spoilers1 = $(".spoilerM");
+    spoilers1.each(function () {
+        var spoiler1 = $(this);
+       
+            $(this).removeClass("spoiler-open-btn").addClass("spoiler-close-btn");
+            spoiler1.find(".spoiler-body").slideUp(1000);
+            spoiler1.find(".vertical").css({
+                "display": "block"
+            });
+
+        
+    })
+
+
 
 });
 //         відкрити додаткову інфу для desctop

@@ -28,8 +28,8 @@
         padding: 0;
         width: 3vw;
         height: 3vw;
-        position: absolute;
-        top: 95%;
+        position: fixed;
+        top: 155%;
         left: 50%;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
@@ -335,6 +335,43 @@
         transition: all 1s;
         overflow: auto;
 }
+    .closeMob{
+        
+    
+        padding: 0;
+        width: 8vw;
+        height: 8vw;
+        position: fixed;
+        top: 155%;
+            left: 46.5%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        border-radius: 50%;
+        background-color: rgba(51, 51, 51, .9);
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+/*            line-height: 3vw;*/
+        -webkit-transition: all ease .8s;
+        -moz-transition: all ease .8s;
+        -ms-transition: all ease .8s;
+        -o-transition: all ease .8s;
+        transition: all ease .8s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .closeMob:before {
+        color: rgba(255, 255, 255, 0.9);
+        content: '\2715';
+        font-size: 4vw;
+        margin: 0;
+        padding: 0 0 2px;
+    }
     .spoilers {
   
         flex-direction: column;
@@ -423,37 +460,14 @@
         justify-content: center;
     }
 
-    .spoiler-expand-btn {
-        font-weight: normal;
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 35px;
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        background-color: #ffffff;
-        color: rgb(180, 180, 180);
-        margin-right: 20px;
-    }
 
     .spoiler-expand-btn {
         font-weight: normal;
         font-family: 'Courier New', Courier, monospace;
-        font-size: 35px;
+        font-size: 4.6vw;
         border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        background-color: #ffffff;
-        color: rgb(180, 180, 180);
-        margin-right: 20px;
-    }
-
-    .spoiler-expand-btn {
-        font-weight: normal;
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 35px;
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
+        width: 5.3vw;
+        height: 5.3vw;
         background-color: #ffffff;
         color: rgb(180, 180, 180);
         margin-right: 20px;

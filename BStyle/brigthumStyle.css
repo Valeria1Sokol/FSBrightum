@@ -27,8 +27,8 @@ body {
 .desctop {
     display: block;
 }
-.mobile_b
-{
+
+.mobile_b {
     display: none;
 }
 
@@ -54,112 +54,113 @@ header {
     background-image: url(../BImg/animate_tube.png);
     background-repeat: no-repeat;
     background-size: contain;
-        width: 29vw;
+    width: 29vw;
     height: 31vw;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
-/*    padding-top: 1vw;*/
 }
-.sec1Animate img
-{
+
+.sec1Animate img {
     position: relative;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
+
 .ing12 {
     top: -4vw;
     left: -4.3vw;
     width: 3.4vw;
     animation-duration: 6s;
-     animation-name: float;
+    animation-name: float;
 }
+
 .ing11 {
-  top: -2vw;
+    top: -2vw;
     left: 4.5vw;
     width: 7.5vw;
     animation-duration: 9s;
-     animation-name: float3;
+    animation-name: float3;
 }
+
 .ing10 {
-   top: 0vw;
+    top: 0vw;
     left: 0vw;
     width: 3vw;
     animation-duration: 5s;
-     animation-name: float;
+    animation-name: float;
 }
 
-.ing9
-{
-        width: 6.4vw;
+.ing9 {
+    width: 6.4vw;
     left: -2vw;
     top: 1vw;
     animation-duration: 5s;
-     animation-name: float3;
+    animation-name: float3;
 }
-.ing8
-{
+
+.ing8 {
     top: 3vw;
     left: 5vw;
     width: 1.4vw;
     animation-duration: 8s;
-     animation-name: float2;
+    animation-name: float2;
 }
-.ing7
-{
+
+.ing7 {
     top: 4.5vw;
     left: -5vw;
     width: 2vw;
     animation-duration: 6s;
-     animation-name: float3;
+    animation-name: float3;
 }
-.ing6
-{
+
+.ing6 {
     top: 5vw;
     left: 2vw;
     width: 2.9vw;
     animation-duration: 8s;
-     animation-name: float;
+    animation-name: float;
 }
-.ing5
-{
+
+.ing5 {
     top: 6.5vw;
     left: 4vw;
     width: 2.4vw;
     animation-duration: 6s;
-     animation-name: float3;
+    animation-name: float3;
 }
-.ing4
-{
+
+.ing4 {
     top: 7.7vw;
     left: -2.6vw;
     width: 2.9vw;
-     animation-duration: 7s;
-     animation-name: float2;
+    animation-duration: 7s;
+    animation-name: float2;
 }
-.ing3
-{
+
+.ing3 {
     top: 7.6vw;
     left: 2vw;
     width: 1.3vw;
     animation-duration: 9s;
-     animation-name: float3;
+    animation-name: float3;
 }
-.ing2
-{
+
+.ing2 {
     top: 8vw;
     left: 0.5vw;
     width: 8.5vw;
-     animation-duration: 6s;
-     animation-name: float3;
+    animation-duration: 6s;
+    animation-name: float3;
 }
-.ing1
-{
+
+.ing1 {
     top: 6vw;
     width: 1.3vw;
     animation-duration: 7s;
-     animation-name: float;
+    animation-name: float;
 }
 
 .sec1Info {
@@ -178,9 +179,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
-
 }
 
 .sec1 .infoLogo p {
@@ -228,8 +226,8 @@ header {
     align-items: center;
     margin: 0;
 }
-.sec1 .infoIcon .icon:hover
-{
+
+.sec1 .infoIcon .icon:hover {
     opacity: 1;
 }
 
@@ -346,15 +344,15 @@ header {
     flex-direction: column;
     width: 13vw;
     box-sizing: border-box;
-    margin: 3vw 0 0vw 15vw;
+    margin: 3vw 0 0vw 14.5vw;
 }
 
 .sec2ImgInfo:first-of-type {
-    margin: 0vw 0 1vw 15vw;
+    margin: 0vw 0 1vw 14.5vw;
 }
 
 .sec2ImgInfo:last-of-type {
-        margin: 3vw 0 1vw 15vw;
+    margin: 3vw 0 1vw 14.5vw;
 }
 
 .sec2ImgInfo h4 {
@@ -963,8 +961,8 @@ header {
 .radial-progress svg {
     margin: 0.1vw 2vw;
 }
-.first-radial
-{
+
+.first-radial {
     display: flex;
     flex-direction: column;
     justify-content: center;

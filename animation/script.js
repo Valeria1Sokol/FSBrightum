@@ -73,6 +73,13 @@ $('#openModalMob').click(function () {
 
         top: '60px'
     }, 10);
+      $('.modalBack').css({
+        display: 'block'
+    });
+    $('.modalBack').animate({
+
+        top: '60px'
+    }, 10);
     $('.closeMob').animate({
 
         top: '90%'
@@ -90,6 +97,10 @@ $('.closeMob').click(function () {
         top: '155%'
     }, 10);
     $('.modalWindMob').animate({
+
+        top: '100%'
+    }, 10);
+     $('.modalBack').animate({
 
         top: '100%'
     }, 10);

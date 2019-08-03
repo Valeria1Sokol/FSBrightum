@@ -745,6 +745,10 @@
         transform: matrix(0, 1, -1, 0, 79, 0) !important;
         font-size: 3.8vw !important;
     }
+    .modalWindMob
+    {
+            padding: 0vw 0 14vw;
+    }
 }
 
 @media all and (max-width:375px) {
@@ -788,9 +792,6 @@
         font-size: 4.8vw !important;
     }
 
-    .modalWindMob {
-        padding: 0vw 0 6vw;
-    }
 
     .sec4Img .box1 {
         top: -13.7vw;
@@ -817,7 +818,7 @@
     }
 
     .modalWindMob {
-        padding: 0vw 0 14vw;
+        padding: 0vw 0 18vw;
     }
 
     .sec4Img .box5 {

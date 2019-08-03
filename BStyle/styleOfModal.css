@@ -317,12 +317,26 @@
     {
         display: none;
     }
+    .modalBack
+    {
+        background-color: white;
+        top: 100%;
+        right: 0;
+        z-index: 2;
+        margin: 0 auto;
+        width: 100vw;
+        height: 100vh; 
+        position: fixed;
+        box-sizing: border-box;
+        display: none;
+        transition: all 1s;
+    }
     .modalWindMob
     {
         background-color: white;
         top: 100%;
         right: 0;
-        z-index: 1;
+        z-index: 3;
         margin: 0 auto;
         width: 100vw;
         height: 100vh;
@@ -330,10 +344,9 @@
         position: fixed;
         padding: 2vw 0 3vw;
         box-sizing: border-box;
-        background-color: #FFFFFF;
         display: none;
         transition: all 1s;
-        overflow: auto;
+        overflow: scroll;
 }
     .closeMob{
         

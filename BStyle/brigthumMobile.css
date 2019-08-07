@@ -775,6 +775,10 @@
    
     padding: 0 0 1px 1px;
 }
+    .sec2 .original_spoiler {
+    font-size: 3.8vw;
+    font-weight: 600;
+}
 }
 
 @media all and (max-width:375px) {

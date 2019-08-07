@@ -239,7 +239,7 @@ header {
 }
 
 .sec1 .infoIcon .icon p {
-    font-size: 1.6vw;
+    font-size: 1.4vw;
     font-family: "Open Sans semi-bold";
     color: #1b1b1b;
     text-transform: uppercase;
@@ -247,12 +247,12 @@ header {
 }
 
 .sec1 .infoIcon .icon p span {
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     font-family: "Open Sans semi-bold";
     color: white;
     background-color: black;
     border-radius: 50%;
-    padding: 0.1vw 0.8vw 0.2vw;
+    padding: 0.2vw 0.8vw 0.2vw;
 
 }
 
@@ -361,6 +361,7 @@ header {
     font-size: 1.05vw;
     font-family: "Open Sans bold";
     margin: 0;
+        letter-spacing: -1px;
 
 }
 
@@ -369,6 +370,7 @@ header {
     font-family: "Open Sans";
     color: #3d3d3d;
     margin: 0;
+        letter-spacing: -1px;
 
 }
 
@@ -534,7 +536,7 @@ header {
     margin-top: 8vw;
 }
 
-.sec32 .sec3Bubble .sec3Label p
+ .sec3Label p
 {
     font-family: "Open Sans semi-bold";
 }

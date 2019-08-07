@@ -45,7 +45,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 12vw 13.5vw 9vw 10vw;
+    padding: 12vw 13.5vw 9vw 9vw;
     box-sizing: border-box;
 
 }
@@ -54,8 +54,8 @@ header {
     background-image: url(../BImg/animate_tube.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 29vw;
-    height: 31vw;
+    width: 36vw;
+    height: 38vw;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -69,49 +69,49 @@ header {
 }
 
 .ing12 {
-    top: -4vw;
-    left: -4.3vw;
-    width: 3.4vw;
-    animation-duration: 6s;
+    top: -6vw;
+    left: -6.3vw;
+    width: 4.4vw;
+    animation-duration: 7s;
     animation-name: float;
 }
 
 .ing11 {
-    top: -2vw;
-    left: 4.5vw;
-    width: 7.5vw;
+    top: -5vw;
+    left: 5.5vw;
+    width: 9.5vw;
     animation-duration: 9s;
     animation-name: float3;
 }
 
 .ing10 {
-    top: 0vw;
-    left: 0vw;
-    width: 3vw;
+    top: -1vw;
+    left: -2vw;
+    width: 3.6vw;
     animation-duration: 5s;
     animation-name: float;
 }
 
 .ing9 {
-    width: 6.4vw;
-    left: -2vw;
-    top: 1vw;
+    width: 8.4vw;
+    left: -3.5vw;
+    top: -1vw;
     animation-duration: 5s;
     animation-name: float3;
 }
 
 .ing8 {
-    top: 3vw;
-    left: 5vw;
-    width: 1.4vw;
+    top: 1vw;
+    left: 6vw;
+    width: 2.2vw;
     animation-duration: 8s;
-    animation-name: float2;
+    animation-name: float;
 }
 
 .ing7 {
     top: 4.5vw;
-    left: -5vw;
-    width: 2vw;
+    left: -8vw;
+    width: 2.9vw;
     animation-duration: 6s;
     animation-name: float3;
 }
@@ -119,37 +119,37 @@ header {
 .ing6 {
     top: 5vw;
     left: 2vw;
-    width: 2.9vw;
+    width: 3.9vw;
     animation-duration: 8s;
     animation-name: float;
 }
 
 .ing5 {
     top: 6.5vw;
-    left: 4vw;
-    width: 2.4vw;
+    left: 5vw;
+    width: 3.4vw;
     animation-duration: 6s;
     animation-name: float3;
 }
 
 .ing4 {
     top: 7.7vw;
-    left: -2.6vw;
-    width: 2.9vw;
-    animation-duration: 7s;
+    left: -4.6vw;
+    width: 3.5vw;
+    animation-duration: 5s;
     animation-name: float2;
 }
 
 .ing3 {
     top: 7.6vw;
     left: 2vw;
-    width: 1.3vw;
+    width: 2vw;
     animation-duration: 9s;
     animation-name: float3;
 }
 
 .ing2 {
-    top: 8vw;
+        top: 8vw;
     left: 0.5vw;
     width: 8.5vw;
     animation-duration: 6s;
@@ -158,8 +158,8 @@ header {
 
 .ing1 {
     top: 6vw;
-    width: 1.3vw;
-    animation-duration: 7s;
+    width: 1.8vw;
+    animation-duration: 4s;
     animation-name: float;
 }
 
@@ -184,20 +184,20 @@ header {
 .sec1 .infoLogo p {
     color: white;
     font-family: 'Open Sans bold';
-    font-size: 2.17vw;
+    font-size: 2.5vw;
     margin: 0;
-    padding: 1.2vw 0.8vw 0 0;
+    padding: 0.8vw 0.8vw 0 0;
 }
 
 .sec1 .infoLogo p:first-of-type {
-    font-size: 1vw;
-    padding: 1.1vw 0 0 3vw;
+    font-size: 1.2vw;
+    padding: 1vw 0 0 3vw;
 
 }
 
 .sec1 .infoLogo p:last-of-type {
     font-size: 0.9vw;
-    padding: 0.8vw 1.1vw 0 0;
+    padding: 0.5vw 1.1vw 0 0;
 
 }
 
@@ -207,6 +207,8 @@ header {
     font-size: 1.4vw;
     text-align: left;
     margin: 3.5vw 0 4vw;
+    padding-left: 1vw;
+
 }
 
 .sec1 .infoIcon {
@@ -232,12 +234,12 @@ header {
 }
 
 .sec1 .infoIcon .icon img {
-    width: 9.8vw;
-    height: 9.8vw;
+    width: 10.5vw;
+    height: 10.5vw;
 }
 
 .sec1 .infoIcon .icon p {
-    font-size: 1.15vw;
+    font-size: 1.6vw;
     font-family: "Open Sans semi-bold";
     color: #1b1b1b;
     text-transform: uppercase;
@@ -245,12 +247,12 @@ header {
 }
 
 .sec1 .infoIcon .icon p span {
-    font-size: 1.15vw;
+    font-size: 1.5vw;
     font-family: "Open Sans semi-bold";
     color: white;
     background-color: black;
     border-radius: 50%;
-    padding: 0vw 0.65vw 0.2vw;
+    padding: 0.1vw 0.8vw 0.2vw;
 
 }
 
@@ -295,7 +297,7 @@ header {
 .sec2Info h3 {
     font-size: 1.7vw;
     font-family: "Open Sans semi-bold";
-    margin: 22px 0 0;
+    margin: 0.5vw 0 0;
 }
 
 .sec2Info .info_hr {
@@ -348,16 +350,16 @@ header {
 }
 
 .sec2ImgInfo:first-of-type {
-    margin: 0vw 0 1vw 14.5vw;
+    margin: 0.5vw 0 0.5vw 14.5vw;
 }
 
 .sec2ImgInfo:last-of-type {
-    margin: 3vw 0 1vw 14.5vw;
+    margin: 3.5vw 0 1vw 14.5vw;
 }
 
 .sec2ImgInfo h4 {
-    font-size: 1vw;
-    font-family: "Open Sans semi-bold";
+    font-size: 1.05vw;
+    font-family: "Open Sans bold";
     margin: 0;
 
 }
@@ -532,7 +534,10 @@ header {
     margin-top: 8vw;
 }
 
-
+.sec32 .sec3Bubble .sec3Label p
+{
+    font-family: "Open Sans semi-bold";
+}
 .sec3Bubble p {
     font-size: 1.15vw;
     font-family: "Open Sans bold";
@@ -644,7 +649,8 @@ header {
     flex-direction: column;
     justify-content: center;
     box-sizing: border-box;
-    margin-top: -4vw;
+    margin-top: -5vw;
+    margin-right: 2vw;
 }
 
 .sec4Img .imgTop {

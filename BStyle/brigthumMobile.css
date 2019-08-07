@@ -659,12 +659,12 @@
     width: 9vw;
 }
     .ing11 {
-       top: -9vw;
+       top: -12vw;
     left: 15.5vw;
     width: 22.5vw;
 }
     .ing12 {
-    top: -12vw;
+    top: -9vw;
     left: -13.3vw;
     width: 11.4vw;
 }
@@ -672,6 +672,23 @@
 
 
 @media all and (max-width:425px) {
+    .ing12 {
+    top: -13vw;
+    left: -7.3vw;
+    width: 11.4vw;
+}
+   .ing11 {
+       top: -12vw;
+    left: 15.5vw;
+    width: 22.5vw;
+}
+    .closeMob:before {
+    color: rgba(255, 255, 255, 0.9);
+    content: '\2715';
+    font-size: 4vw;
+    margin: 0;
+    padding: 0 0 1px;
+}
 
     .sec1 {
 
@@ -747,7 +764,7 @@
     }
     .modalWindMob
     {
-            padding: 0vw 0 14vw;
+            padding: 0vw 0 16vw;
     }
 }
 
@@ -797,6 +814,9 @@
         top: -13.7vw;
         left: -4.05vw;
     }
+    .modalWindMob {
+    padding: 0vw 0 18vw;
+}
 }
 
 @media all and (max-width:320px) {

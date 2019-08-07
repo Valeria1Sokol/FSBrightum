@@ -769,6 +769,13 @@
             padding: 0vw 0 16vw;
     }
 }
+@media all and (max-width:414px)
+{
+    .closeMob:before {
+   
+    padding: 0 0 1px 1px;
+}
+}
 
 @media all and (max-width:375px) {
     .sec4Img .box5 {

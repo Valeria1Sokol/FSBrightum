@@ -29,7 +29,7 @@ body {
         background-color: #ffffff;
         z-index: 100;
         -webkit-transform: translate3d(0, 0, 0);
-        border-top: 1px solid black;
+        border-top: 1px solid rgba(214,214,214,1);
     }
 
     .menu {
@@ -299,8 +299,6 @@ body {
     @media screen and (max-width: 1188px) {
         header {
             justify-content: flex-end;
-
-            border-top: 1px solid black;
         }
 
         .logo {

@@ -7,6 +7,7 @@
         display: block;
     }
 
+    /*
     .sec1 {
 
         flex-direction: column;
@@ -86,6 +87,7 @@
         font-size: 2.5vw;
         margin: 0.5vw 0;
     }
+*/
 
     .sec2 {
         width: 100vw;
@@ -111,7 +113,7 @@
     .textInfo_p {
         font-size: 4vw;
         line-height: 1.5;
-        margin: 1em 0;
+        margin: 0.7em 0 1em;
     }
 
     .sec2Img {
@@ -120,12 +122,12 @@
         height: 88vw;
 
         padding-top: 1vw;
-        margin-left: -4vw;
+        margin: 2.2vw 0 2vw -4vw;
     }
 
     .sec2ImgInfo h4 {
         font-size: 2.5vw;
-        letter-spacing: 0px;
+        /*        letter-spacing: 0px;*/
     }
 
     .sec2ImgInfo p {
@@ -152,6 +154,7 @@
     .sec2ImgInfo .imgInfo_hr {
         width: 8.8vw;
         height: 0.5vw;
+        margin: 1vw 0;
     }
 
 
@@ -176,11 +179,12 @@
     .sec2 .original_spoiler {
         font-size: 4vw;
         font-weight: 600;
+        cursor: pointer;
     }
 
     .sec2 .spoiler_body_paragraph {
 
-        margin-left: 9vw;
+
         margin-top: 5vw;
         font-size: 4vw;
     }
@@ -208,7 +212,6 @@
     .sec2 .spoiler-header-left-part {
         display: flex;
         height: auto;
-        padding-left: 9vw;
     }
 
 
@@ -255,6 +258,11 @@
         width: 42vw;
     }
 
+    .sec3Bubble .sec3Label {
+
+        margin-left: 0vw;
+    }
+
     .sec3Text p {
         font-size: 3vw;
     }
@@ -286,6 +294,12 @@
     .sec3Bubble {
 
         flex-direction: row;
+        margin-top: 7vw;
+        margin-left: 1vw;
+    }
+
+    .sec32 .sec3Bubble {
+        margin-top: 7.3vw;
     }
 
     .sec3Bubble p {
@@ -307,7 +321,7 @@
     .sec3Bubble .mainBubble {
         width: 39.5vw;
         box-sizing: border-box;
-        margin: 4vw 4vw 0 0;
+        margin: 4vw 6.2vw 0 0;
     }
 
     .sec3Bubble .sec3Label img {
@@ -377,6 +391,7 @@
         width: 9.6vw;
     }
 
+    /*
     .circle-1 {
         width: 9.6vw;
         height: 9.6vw;
@@ -386,6 +401,7 @@
         width: 9.6vw;
         height: 9.6vw;
     }
+*/
 
     .sec4Img .imgBottom p {
         font-size: 2.5vw;
@@ -418,12 +434,14 @@
         width: 21vw;
     }
 
+    /*
     #pulse-bl-5,
     #pulse-5 {
 
         top: 8.1vw;
         left: 4.5vw;
     }
+*/
 
 
     .sec4Img .box2 {
@@ -431,45 +449,53 @@
         left: 3.97vw;
     }
 
+    /*
     #pulse-bl-4,
     #pulse-4 {
         left: 5.5vw;
         top: -0.2vw;
     }
+*/
 
     .sec4Img .box3 {
         top: 7.8vw;
         left: 9.1vw;
     }
 
+    /*
     #pulse-bl-3,
     #pulse-3 {
         top: 5.5vw;
         left: 4.5vw;
     }
+*/
 
     .sec4Img .box4 {
         top: 17.4vw;
         left: 11.1vw;
     }
 
+    /*
     #pulse-bl-2,
     #pulse-2 {
         left: 4.6vw;
         top: -0.1vw;
     }
+*/
 
     .sec4Img .box5 {
         top: 14.94vw;
         left: 12.6vw;
     }
 
+    /*
     #pulse-bl-1,
     #pulse-1 {
 
         left: 4.5vw;
         top: 2.6vw;
     }
+*/
 
     .sec5Info {
         justify-content: center;
@@ -477,42 +503,45 @@
     }
 
     .sec5Box h3 {
-        font-size: 3vw;
+        font-size: 4vw;
         line-height: 1.7;
     }
 
     .sec5Box h2 {
-        font-size: 4vw;
+        font-size: 6vw;
     }
 
     .sec5Box p {
-        font-size: 3vw;
+        font-size: 4vw;
         line-height: 1.7;
     }
 
-    .sec5Info #img1 {
-        width: 45vw;
-    }
+
 
     .sec5Box .sec5Info {
 
         width: 100%;
-        height: 76vw;
         justify-content: flex-start;
     }
 
     .sec5Info #img2 {
-        width: 33vw;
+        width: 47vw;
     }
 
     .sec5Box hr {
-        height: 5px;
-        width: 63px;
+        height: 0.7vw;
+        width: 9vw;
+        margin: 4vw 0;
     }
 
     .sec5 {
 
         padding: 0;
+    }
+
+    .sec5Box {
+        height: 111vw;
+        padding: 6vw;
     }
 
     .mobRadial {
@@ -521,7 +550,7 @@
         justify-content: center;
         align-content: center;
         width: 100vw;
-        padding: 4vw 10vw;
+        padding: 0vw 10vw 14vw;
         background-color: #cefdee;
         box-sizing: border-box;
     }
@@ -551,7 +580,7 @@
     }
 
     svg.radial-progress text {
-        transform: matrix(0, 1, -1, 0, 77, 0);
+        transform: matrix(0, 1, -1, 0, 78, 0);
         font-size: 2.8vw;
         box-sizing: border-box;
     }
@@ -566,12 +595,12 @@
     }
 
     .first-radial {
-        height: 58vw;
+        height: 66vw;
         box-sizing: border-box;
     }
 
     .sec7Info h1 {
-        font-size: 5vw;
+        font-size: 4.5vw;
         font-family: "Open Sans semi-bold";
         margin: 0 0 5.5vw;
     }
@@ -609,125 +638,153 @@
 
         padding: 10vw 0 21vw;
     }
-    
+
     .ing1 {
-    top: 18vw;
-    width: 4.3vw;
-    left: 2vw;
-}
+        top: 18vw;
+        width: 4.3vw;
+        left: 2vw;
+    }
+
     .ing2 {
-    top: 22vw;
-    left: 3.5vw;
-    width: 22.5vw;
-}
+        top: 22vw;
+        left: 3.5vw;
+        width: 22.5vw;
+    }
+
     .ing3 {
-    top: 21.6vw;
-    left: 6vw;
-    width: 4.3vw;
-}
+        top: 21.6vw;
+        left: 6vw;
+        width: 4.3vw;
+    }
+
     .ing4 {
-    top: 20.7vw;
-    left: -7.6vw;
-    width: 8.9vw;
-}
-.ing5 {
-    top: 17.5vw;
-    left: 13vw;
-    width: 7vw;
-}
+        top: 20.7vw;
+        left: -7.6vw;
+        width: 8.9vw;
+    }
+
+    .ing5 {
+        top: 17.5vw;
+        left: 13vw;
+        width: 7vw;
+    }
+
     .ing6 {
-    top: 15vw;
-    left: 6vw;
-    width: 7.9vw;
-}
+        top: 15vw;
+        left: 6vw;
+        width: 7.9vw;
+    }
+
     .ing7 {
         top: 12.5vw;
-    left: -14vw;
-    width: 6vw;
-}
+        left: -14vw;
+        width: 6vw;
+    }
+
     .ing8 {
-    top: 7vw;
-    left: 15vw;
-    width: 4.5vw;
-}
+        top: 7vw;
+        left: 15vw;
+        width: 4.5vw;
+    }
+
     .ing9 {
-   width: 19.4vw;
-    left: -7vw;
-    top: 4vw;
-}
+        width: 19.4vw;
+        left: -7vw;
+        top: 4vw;
+    }
+
     .ing10 {
-   top: -2vw;
-    left: -2vw;
-    width: 9vw;
-}
+        top: -2vw;
+        left: -2vw;
+        width: 9vw;
+    }
+
     .ing11 {
-       top: -12vw;
-    left: 15.5vw;
-    width: 22.5vw;
-}
+        top: -12vw;
+        left: 15.5vw;
+        width: 22.5vw;
+    }
+
     .ing12 {
-    top: -9vw;
-    left: -13.3vw;
-    width: 11.4vw;
-}
+        top: -9vw;
+        left: -13.3vw;
+        width: 11.4vw;
+    }
 }
 
 
 @media all and (max-width:425px) {
+    /*
     .ing12 {
-    top: -13vw;
-    left: -7.3vw;
-    width: 11.4vw;
-}
-   .ing11 {
-       top: -12vw;
-    left: 15.5vw;
-    width: 22.5vw;
-}
-    .closeMob:before {
-    color: rgba(255, 255, 255, 0.9);
-    content: '\2715';
-    font-size: 4vw;
-    margin: 0;
-    padding: 0 0 1px;
-}
+        top: -13vw;
+        left: -7.3vw;
+        width: 11.4vw;
+    }
 
+    .ing11 {
+        top: -12vw;
+        left: 15.5vw;
+        width: 22.5vw;
+    }
+*/
+
+    .closeMob:before {
+        color: rgba(255, 255, 255, 0.9);
+        content: '\2715';
+        font-size: 4vw;
+        margin: 0;
+        padding: 0 0 1px;
+    }
+
+    .sec2 {
+
+        padding: 21vw 9vw 17vw;
+    }
+
+    /*
     .sec1 {
 
         flex-direction: column;
         padding: 25vw 12vw 9vw;
     }
+*/
 
     .sec4Img .box5 {
         top: 15.05vw;
     }
 
+    /*
     #pulse-bl-1,
     #pulse-1 {
 
         top: 2.4vw;
     }
+*/
 
     .sec4Img .box4 {
 
         left: 11.2vw;
     }
 
+    /*
     #pulse-bl-2,
     #pulse-2 {
         left: 4.45vw;
         top: -0.3vw;
     }
+*/
 
     .sec4Img .box3 {
         top: 7.9vw;
     }
 
+    /*
     #pulse-bl-3,
     #pulse-3 {
         top: 5.1vw;
         left: 4.45vw;
     }
+*/
 
     .sec4Img .box2 {
 
@@ -738,15 +795,14 @@
         top: -13.5vw;
     }
 
+    /*
     #pulse-bl-5,
     #pulse-5 {
         top: 7.6vw;
         left: 4.3vw;
     }
+*/
 
-    .sec5Box .sec5Info {
-        height: 92vw !important;
-    }
 
     .sec5Box hr {
         height: 3px !important;
@@ -756,29 +812,32 @@
         bottom: -2vw !important;
     }
 
-    .mobRadial {
-        padding: 10vw 10vw;
+    .sec5Box {
+        height: 116vw;
     }
+
+
 
     svg.radial-progress text {
         transform: matrix(0, 1, -1, 0, 79, 0) !important;
-        font-size: 3.8vw !important;
+        font-size: 4.4vw !important;
     }
-    .modalWindMob
-    {
-            padding: 0vw 0 16vw;
+
+    .modalWindMob {
+        padding: 0vw 0 16vw;
     }
 }
-@media all and (max-width:414px)
-{
+
+@media all and (max-width:414px) {
     .closeMob:before {
-   
-    padding: 0 0 1px 1px;
-}
+
+        padding: 0 0 1px 1px;
+    }
+
     .sec2 .original_spoiler {
-    font-size: 3.8vw;
-    font-weight: 600;
-}
+        font-size: 3.8vw;
+        font-weight: 600;
+    }
 }
 
 @media all and (max-width:375px) {
@@ -797,26 +856,32 @@
         left: 9.1vw;
     }
 
+    /*
     #pulse-bl-3,
     #pulse-3 {
         top: 5.3vw;
     }
+*/
 
+    /*
     #pulse-bl-4,
     #pulse-4 {
         left: 5.5vw;
         top: -0.4vw;
     }
+*/
 
     .sec4Img .box2 {
         top: 5.34vw;
     }
 
+    /*
     #pulse-bl-5,
     #pulse-5 {
         top: 7.8vw;
         left: 4.5vw;
     }
+*/
 
     svg.radial-progress text {
         font-size: 4.8vw !important;
@@ -827,14 +892,19 @@
         top: -13.7vw;
         left: -4.05vw;
     }
+
     .modalWindMob {
-    padding: 0vw 0 18vw;
-}
+        padding: 0vw 0 18vw;
+    }
+
+    .sec5Info {
+        padding-top: 0;
+    }
 }
 
 @media all and (max-width:320px) {
     .sec5Box {
-        padding: 30px 50px 39px;
+        height: 119vw;
     }
 
     .slick-dots {
@@ -868,28 +938,37 @@
         top: 17.2vw;
         left: 11.1vw;
     }
+
     .sec4Img .box3 {
-    top: 8vw;
-}
-    #pulse-bl-3, #pulse-3 {
-    top: 4.8vw;
-    left: 4.35vw;
-}
+        top: 8vw;
+    }
+
+    #pulse-bl-3,
+    #pulse-3 {
+        top: 4.8vw;
+        left: 4.35vw;
+    }
+
     .sec4Img .box2 {
-    top: 5vw;
-}
-    #pulse-bl-4, #pulse-4 {
-    left: 5.5vw;
-     top: -0.2vw; 
-}
+        top: 5vw;
+    }
+
+    #pulse-bl-4,
+    #pulse-4 {
+        left: 5.5vw;
+        top: -0.2vw;
+    }
+
     .sec4Img .box1 {
-    top: -13.3vw;
-    left: -4vw;
-}
-    #pulse-bl-5, #pulse-5 {
-    top: 7.2vw;
-    left: 4.35vw;
-}
+        top: -13.3vw;
+        left: -4vw;
+    }
+
+    #pulse-bl-5,
+    #pulse-5 {
+        top: 7.2vw;
+        left: 4.35vw;
+    }
 
 
 }

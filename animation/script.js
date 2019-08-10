@@ -44,7 +44,7 @@ $('#openModal').click(function () {
     }, 10);
     $('.close').animate({
 
-        top: '95%'
+        top: '85%'
     }, 200);
 
     $('.modalWind').scrollTop(0);
@@ -82,7 +82,7 @@ $('#openModalMob').click(function () {
     }, 10);
     $('.closeMob').animate({
 
-        top: '90%'
+        top: '85%'
     }, 150);
 
 

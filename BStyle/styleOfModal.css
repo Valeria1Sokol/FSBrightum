@@ -7,7 +7,7 @@
     .modalWind {
         top: 100%;
         right: 0;
-        z-index: 1;
+        z-index: 5;
         margin: 0 auto;
         width: 100vw;
         height: 100vh;
@@ -18,8 +18,12 @@
         background-color: #FFFFFF;
         display: none;
         transition: all 1s;
-        overflow: auto;
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
+   ::-webkit-scrollbar {
+   display: none; 
+}
 
 
     /* формируем кнопку закрытия */

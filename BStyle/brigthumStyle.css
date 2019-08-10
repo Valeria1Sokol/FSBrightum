@@ -36,6 +36,7 @@ header {
     display: none;
 }
 
+/*
 .sec1 {
     width: 100vw;
     background-image: url(../BImg/bg_sec1.png);
@@ -255,6 +256,7 @@ header {
     padding: 0.2vw 0.8vw 0.2vw;
 
 }
+*/
 
 .sec2 {
     width: 100vw;
@@ -361,7 +363,7 @@ header {
     font-size: 1.05vw;
     font-family: "Open Sans semi-bold";
     margin: 0;
-        letter-spacing: -1px;
+    letter-spacing: -1px;
 
 }
 
@@ -370,7 +372,7 @@ header {
     font-family: "Open Sans";
     color: #3d3d3d;
     margin: 0;
-        letter-spacing: -1px;
+    letter-spacing: -1px;
 
 }
 
@@ -533,13 +535,13 @@ header {
 
 .sec32 .sec3Bubble {
 
-    margin-top: 8vw;
+    margin-top: 7vw;
 }
 
-.sec3Bubble .sec3Label p
-{
+.sec3Bubble .sec3Label p {
     font-family: "Open Sans semi-bold";
 }
+
 .sec3Bubble p {
     font-size: 1.15vw;
     font-family: "Open Sans bold";
@@ -697,7 +699,7 @@ header {
     justify-content: center;
     align-items: center;
     position: relative;
-    z-index: 2;
+    z-index: 1;
 
 }
 
@@ -711,7 +713,7 @@ header {
 
 .sec4Img .imgBottom_box img {
     position: relative;
-    z-index: 3;
+    /*    z-index: 3;*/
     width: 4.6vw;
 }
 
@@ -774,6 +776,7 @@ header {
     top: 0.8vw;
 }
 
+/*
 .circle {
     border-radius: 11.2vw;
     border: 1px solid dimgray;
@@ -863,6 +866,7 @@ header {
     top: 3.2vw;
     left: 0.3vw;
 }
+*/
 
 .sec5 {
     width: 100vw;
@@ -960,6 +964,7 @@ header {
 
 .radial-progress p {
     width: 14.13vw;
+    height: 6vw;
     color: #000;
     font-size: 1.3vw;
     text-align: center;
@@ -995,7 +1000,8 @@ svg.radial-progress circle {
 
 svg.radial-progress circle.incomplete {
 
-    opacity: 0;
+    opacity: 0.35;
+    stroke: rgba(255, 255, 255, 1) !important;
 }
 
 svg.radial-progress circle.complete {
@@ -1009,7 +1015,7 @@ svg.radial-progress text {
     font-weight: bold;
     text-anchor: middle;
     margin-top: 100px;
-    transform: matrix(0, 1, -1, 0, 77, 0);
+    transform: matrix(0, 1, -1, 0, 78, 0);
 }
 
 /*** COLORS ***/
@@ -1121,10 +1127,25 @@ svg.radial-progress:nth-of-type(6n+5) circle {
     svg.radial-progress text {
 
         font-size: 1.3vw;
+        transform: matrix(0, 1, -1, 0, 77, 0);
     }
 
     .radial-progress svg {
         margin: 0.1vw 0.2vw;
+    }
+}
+
+@media all and (max-width:1600px) {
+    svg.radial-progress text {
+
+        transform: matrix(0, 1, -1, 0, 78, 0);
+    }
+}
+
+@media all and (max-width:1440px) {
+    svg.radial-progress text {
+        font-size: 1.4vw;
+        transform: matrix(0, 1, -1, 0, 78, 0);
     }
 }
 

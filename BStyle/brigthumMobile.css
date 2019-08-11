@@ -606,20 +606,28 @@
     }
 
     .know_more_btn {
-        text-transform: uppercase;
-        font-size: 2.7vw;
-
+        
         width: 27vw;
         height: 9vw;
-        background-color: white;
+        background-color: rgba(255,255,255,1);
         border: none;
         outline: none;
         border-radius: 5vw;
         padding: 0;
-        font-family: "Open Sans";
-        box-shadow: none;
-        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
 
+    }
+     .know_more_btn p
+    {
+       text-transform: uppercase;
+        font-size: 2.7vw; 
+        font-family: "Open Sans";
+        box-sizing: border-box;
+        font-weight: 500;
     }
 
     .sec7Box {

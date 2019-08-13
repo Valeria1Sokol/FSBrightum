@@ -26,11 +26,9 @@ $(".menu-item-science").click(function () {
 
 $(".menu-item-science-mobile").click(function (e) {
     e.preventDefault();
-    $(this).find("i").toggleClass("fa-angle-down").toggleClass("fa-angle-up");
+    $(this).find("i").toggleClass("fa-angle-down").toggleClass("fa-caret-up");
     $(".menu-science-subitems-mobile").fadeToggle();
 });
-
-
 
 
 //         відкрити модальне вікно для desctop
@@ -49,6 +47,8 @@ $('#openModal').click(function () {
 
     $('.modalWind').scrollTop(0);
 
+ 
+
 
 });
 //         закрити модальне вікно для desctop
@@ -62,6 +62,7 @@ $('.close').click(function () {
 
         top: '155%'
     }, 60);
+  
 
 });
 //         відкрити модальне вікно для mobile

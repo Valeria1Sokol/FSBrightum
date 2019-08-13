@@ -18,18 +18,17 @@ $(".hamburger").click(function () {
     }
 });
 
-$(".menu-item-science").click(function () {
-    $(this).find("i").toggleClass("fa-caret-down").addClass("fa-caret-up");
-
-});
-
-
-$(".menu-item-science-mobile").click(function (e) {
-    e.preventDefault();
-    $(this).find("i").toggleClass("fa-angle-down").toggleClass("fa-caret-up");
-    $(".menu-science-subitems-mobile").fadeToggle();
-});
-
+ $(".menu-item-science").click(function () {
+        $(this).find("i").toggleClass("fa-caret-down").toggleClass("fa-caret-up");
+//        $(".menu-science-subitems").fadeToggle();
+    });
+    
+    
+    $(".menu-item-science-mobile").click(function(e){
+        e.preventDefault();
+        $(this).find("i").toggleClass("fa-angle-down").toggleClass("fa-angle-up");
+        $(".menu-science-subitems-mobile").fadeToggle();
+    });
 
 //         відкрити модальне вікно для desctop
 $('#openModal').click(function () {

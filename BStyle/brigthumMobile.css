@@ -7,87 +7,6 @@
         display: block;
     }
 
-    /*
-    .sec1 {
-
-        flex-direction: column;
-        padding: 20vw 11vw 9vw;
-    }
-
-    .sec1Info {
-
-        align-items: center;
-    }
-
-    .sec1 .infoText p {
-
-        font-size: 5vw;
-        text-align: left;
-        margin: 7vw 0 4vw;
-    }
-
-    .sec1 .infoLogo {
-
-        width: 70vw;
-        height: 33vw;
-        background-image: url(../BImg/sec1LogoMob.png);
-    }
-
-    .sec1 .infoLogo p:first-of-type {
-        font-size: 5vw;
-        padding: 2vw 0 0 8.5vw;
-    }
-
-    .sec1 .infoLogo p {
-        font-size: 8.17vw;
-        padding: 2vw 2.8vw 0 0;
-    }
-
-    .sec1 .infoLogo p:last-of-type {
-        font-size: 2.9vw;
-        padding: 1.7vw 3.7vw 0 0;
-    }
-
-    .sec1Img {
-        display: flex;
-        flex-direction: row;
-        width: 100vw;
-        padding-left: 5vw;
-        box-sizing: border-box;
-    }
-
-    .sec1 .infoIcon {
-
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-image: url(../BImg/greenbackground.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 6vw 1.8vw;
-        box-sizing: border-box;
-        width: 23vw;
-        position: absolute;
-        right: 7vw;
-    }
-
-    .sec1Animate {
-
-        background-size: cover;
-        width: 78vw;
-        height: 87vw;
-    }
-
-    .sec1 .infoIcon .icon img {
-        width: 13.5vw;
-        height: 13.5vw;
-    }
-
-    .sec1 .infoIcon .icon p {
-        font-size: 2.5vw;
-        margin: 0.5vw 0;
-    }
-*/
 
     .sec2 {
         width: 100vw;
@@ -127,7 +46,6 @@
 
     .sec2ImgInfo h4 {
         font-size: 2.5vw;
-        /*        letter-spacing: 0px;*/
     }
 
     .sec2ImgInfo p {
@@ -166,8 +84,6 @@
         align-items: center;
         width: 100%;
         padding-left: 10vw;
-
-
         box-sizing: border-box;
     }
 
@@ -391,17 +307,7 @@
         width: 9.6vw;
     }
 
-    /*
-    .circle-1 {
-        width: 9.6vw;
-        height: 9.6vw;
-    }
 
-    .circle-2 {
-        width: 9.6vw;
-        height: 9.6vw;
-    }
-*/
 
     .sec4Img .imgBottom p {
         font-size: 2.5vw;
@@ -434,68 +340,27 @@
         width: 21vw;
     }
 
-    /*
-    #pulse-bl-5,
-    #pulse-5 {
-
-        top: 8.1vw;
-        left: 4.5vw;
-    }
-*/
-
 
     .sec4Img .box2 {
         top: 5.34vw;
         left: 3.97vw;
     }
 
-    /*
-    #pulse-bl-4,
-    #pulse-4 {
-        left: 5.5vw;
-        top: -0.2vw;
-    }
-*/
-
     .sec4Img .box3 {
         top: 7.8vw;
         left: 9.1vw;
     }
 
-    /*
-    #pulse-bl-3,
-    #pulse-3 {
-        top: 5.5vw;
-        left: 4.5vw;
-    }
-*/
 
     .sec4Img .box4 {
         top: 17.4vw;
         left: 11.1vw;
     }
 
-    /*
-    #pulse-bl-2,
-    #pulse-2 {
-        left: 4.6vw;
-        top: -0.1vw;
-    }
-*/
-
     .sec4Img .box5 {
         top: 14.94vw;
         left: 12.6vw;
     }
-
-    /*
-    #pulse-bl-1,
-    #pulse-1 {
-
-        left: 4.5vw;
-        top: 2.6vw;
-    }
-*/
 
     .sec5Info {
         justify-content: center;
@@ -606,10 +471,10 @@
     }
 
     .know_more_btn {
-        
+
         width: 27vw;
         height: 9vw;
-        background-color: rgba(255,255,255,1);
+        background-color: rgba(255, 255, 255, 1);
         border: none;
         outline: none;
         border-radius: 5vw;
@@ -618,13 +483,13 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        
+
 
     }
-     .know_more_btn p
-    {
-       text-transform: uppercase;
-        font-size: 2.7vw; 
+
+    .know_more_btn p {
+        text-transform: uppercase;
+        font-size: 2.7vw;
         font-family: "Open Sans";
         box-sizing: border-box;
         font-weight: 500;
@@ -734,23 +599,15 @@
 
         margin: 0;
     }
+
+    .sec4Img .box5 p {
+
+        top: -3.6vw;
+    }
 }
 
 
 @media all and (max-width:425px) {
-    /*
-    .ing12 {
-        top: -13vw;
-        left: -7.3vw;
-        width: 11.4vw;
-    }
-
-    .ing11 {
-        top: -12vw;
-        left: 15.5vw;
-        width: 22.5vw;
-    }
-*/
 
     .closeMob:before {
         color: rgba(255, 255, 255, 0.9);
@@ -764,54 +621,25 @@
 
         padding: 21vw 9vw 17vw;
     }
+
     .sec4 {
-    padding: 9vw 9vw 17vw;
-}
-
-    /*
-    .sec1 {
-
-        flex-direction: column;
-        padding: 25vw 12vw 9vw;
+        padding: 9vw 9vw 17vw;
     }
-*/
+
 
     .sec4Img .box5 {
         top: 15.05vw;
     }
-
-    /*
-    #pulse-bl-1,
-    #pulse-1 {
-
-        top: 2.4vw;
-    }
-*/
 
     .sec4Img .box4 {
 
         left: 11.2vw;
     }
 
-    /*
-    #pulse-bl-2,
-    #pulse-2 {
-        left: 4.45vw;
-        top: -0.3vw;
-    }
-*/
-
     .sec4Img .box3 {
         top: 7.9vw;
     }
 
-    /*
-    #pulse-bl-3,
-    #pulse-3 {
-        top: 5.1vw;
-        left: 4.45vw;
-    }
-*/
 
     .sec4Img .box2 {
 
@@ -821,14 +649,6 @@
     .sec4Img .box1 {
         top: -13.5vw;
     }
-
-    /*
-    #pulse-bl-5,
-    #pulse-5 {
-        top: 7.6vw;
-        left: 4.3vw;
-    }
-*/
 
 
     .sec5Box hr {
@@ -883,32 +703,10 @@
         left: 9.1vw;
     }
 
-    /*
-    #pulse-bl-3,
-    #pulse-3 {
-        top: 5.3vw;
-    }
-*/
-
-    /*
-    #pulse-bl-4,
-    #pulse-4 {
-        left: 5.5vw;
-        top: -0.4vw;
-    }
-*/
 
     .sec4Img .box2 {
         top: 5.34vw;
     }
-
-    /*
-    #pulse-bl-5,
-    #pulse-5 {
-        top: 7.8vw;
-        left: 4.5vw;
-    }
-*/
 
     svg.radial-progress text {
         font-size: 4.8vw !important;

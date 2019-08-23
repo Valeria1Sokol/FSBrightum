@@ -168,9 +168,9 @@ $(document).ready(function () {
         dots: true,
         arrows: false,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 1500,
         infinite: true,
-        speed: 2000
+        speed: 1500
     });
 });
 //slider  prevent scroll

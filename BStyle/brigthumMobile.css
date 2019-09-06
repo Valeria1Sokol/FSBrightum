@@ -20,13 +20,19 @@
         letter-spacing: -0.2vw;
         text-align: center;
         width: 100%;
-        margin: 0.83em 0;
+        margin: 0.63em 0 2vw;
+        line-height: 7.1vw;
     }
 
     .sec2 .sec2Info {
 
         width: 100%;
-        margin-top: 1vw;
+    }
+
+    .sec4 .sec2Info .textInfo_p {
+        font-size: 4vw;
+        line-height: 1.5;
+        margin: 10vw 0 1em;
     }
 
     .textInfo_p {

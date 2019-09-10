@@ -20,7 +20,7 @@ $(".hamburger").click(function () {
 
  $(".menu-item-science").click(function () {
         $(this).find("i").toggleClass("fa-caret-down").toggleClass("fa-caret-up");
-//        $(".menu-science-subitems").fadeToggle();
+        $(".menu-science-subitems").fadeToggle();
     });
     
     
